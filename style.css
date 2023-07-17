@@ -267,7 +267,7 @@ font-weight: 500;
         padding: 45px 42px;
         border-radius: 8px;
         background: #FF900E;
-        width: 20rem;
+        width: 100%;
         text-align: center;
         color: #FFF;
         position: relative;
@@ -313,7 +313,6 @@ font-weight: 500;
         padding: 45px 42px;
         border-radius: 8px;
         background: #FF900E;
-        /* width: 20rem; */
         width: 100%;
         text-align: center;
         color: #FFF;
