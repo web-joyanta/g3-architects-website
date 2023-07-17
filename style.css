@@ -1,0 +1,325 @@
+/* =============Work Sans Google Font=============  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+/* ==============Common CSS Part Start================== */
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-title{
+    color: var(--dark-01, #131313);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.para-title{
+    color: var(--dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.btn{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+    margin: 50px 0;
+    
+}
+.btn a{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* ==============Common CSS Part End================== */
+/* ==============Navbar Part Start=============== */
+.header-bg{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--dark-02, #424242);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all linear 0.3s;
+}
+.navbar ul li a:hover{
+    color: #FF900E;
+}
+/* ==============Navbar Part End=============== */
+/* ==============Banner Part Start============== */
+.banner img{
+    width: 100%;
+}
+.banner-content{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    color: var(--dark-01, #131313);
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+}
+/* ==============Banner Part End============== */
+
+/* Main Tag Part Start */
+#main{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* Main Tag Part End */
+/* =============Features Part Start============ */
+.features-container{
+    display: flex;
+    margin-top: 85px;
+    align-items: center;
+}
+.features-title{
+    padding-bottom: 24px;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding: 0px 75px;
+}
+.ft-style-1{
+    color: var(--dark-03, #727272);
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.ft-style-2{
+    color: var(--dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+}
+.ft-style-3{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+/* =============Features Part End============ */
+/* ==========Features Love & Enjoy Part Start======= */
+.features-enjoy-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    gap: 140px;
+}
+.header-border{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features-content .Features-card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.features-heading{
+    color: var(--dark-01, #131313);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.para-style{
+    margin: 30px 0;
+}
+.img-year{
+    padding: 45px 42px;
+    border-radius: 8px;
+    background: #FF900E;
+    width: 20rem;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    bottom: 130px;
+    right: 100px;
+
+}
+.img-year h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.img-year p{
+font-size: 1.5rem;
+font-weight: 500;
+}
+
+
+/* ==========Features Love & Enjoy Part End======= */
+/* ==========Some Facts Part Start============== */
+.facts{
+    margin-top: 130px;
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 180px;
+}
+.facts-card-container .card{
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+.card-header{
+    color: var(--dark-02, #424242);
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.card-text{
+    color: var(--dark-03, #727272);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+/* ==========Some Facts Part End============== */
+/* ==============Our Sponspors Part Start=========== */
+.sponspors-dsc{
+    text-align: center;
+}
+.sponspors-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+/* ==============Our Sponspors Part End=========== */
+/* ==============Footer Part Start=========== */
+.footer-container{
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    margin: 130px 0;
+}
+.footer-para{
+    color: var(--dark-02, #424242);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 38px 0;
+}
+/* ==============Footer Part End=========== */
+
+
+
+
+
+/* Responsive For Mobile Device----Start */
+@media screen and (max-width: 576px) {
+    .header-bg{
+        padding: 20px;
+    }
+    .features-title, .sponspors-container img{
+        padding: 30px 0;
+    }
+    .banner-content{
+        width: auto;
+    }
+    .navbar, .features-container, .facts-card-container, .sponspors-container, .features-enjoy-container{
+        flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .navbar ul {
+        margin-top: 30px;
+    }
+    #main{
+        width: auto;
+    }
+    .card, .facts-dsc{
+        margin: 20px;
+    }
+    .facts-dsc{
+        text-align: center;
+    }
+    .features-img img{
+        width: 100%;
+    }
+    .img-year{
+        padding: 45px 42px;
+        border-radius: 8px;
+        background: #FF900E;
+        width: 20rem;
+        text-align: center;
+        color: #FFF;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+    }
+    .features-dsc{
+        padding: 0 20px;
+    }
+}
+/* Responsive For Mobile Device----End */
+/* Responsive For Tablet or Medium Device----Start */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .header-bg{
+        padding: 20px;
+    }
+    .container{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .features-title, .sponspors-container img{
+        padding: 30px 0;
+    }
+    .navbar, .features-container, .sponspors-container, .features-enjoy-container{
+        flex-direction: column;
+    }
+    .navbar ul{
+        margin-top: 30px;
+    }
+    .banner-content{
+        width: auto;  
+    }
+    .facts-dsc{
+        text-align: center;
+    }
+    #main{
+        width: auto;
+    }
+    .features-img img{
+        width: 100%;
+    }
+    .img-year{
+        padding: 45px 42px;
+        border-radius: 8px;
+        background: #FF900E;
+        /* width: 20rem; */
+        width: 100%;
+        text-align: center;
+        color: #FFF;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+/* Responsive For Tablet or Medium Device----End */
